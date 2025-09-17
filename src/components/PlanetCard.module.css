@@ -1,0 +1,12 @@
+.card {}
+.header { display:flex; align-items:center; justify-content:space-between; margin-bottom:.6rem; }
+.name { margin:.2rem 0; }
+.meta { color:#a6c8ff; font-size:.95rem; }
+.img { width: 72px; height:72px; object-fit:cover; border-radius:12px; border:1px solid var(--border); }
+.empty { color:#a6c8ff; font-style: italic; }
+.list { list-style:none; margin:.6rem 0 0; padding:0; display:grid; gap:.6rem; }
+.list__item { display:flex; align-items:center; justify-content:space-between; gap:1rem; background: rgba(255,255,255,0.03); padding:.6rem; border-radius:10px; border:1px solid var(--border); }
+.craft { display:flex; align-items:center; gap:.6rem; }
+.craft__name { font-weight:700; }
+.craft__cap { font-size:.85rem; color:#a6c8ff; }
+.controls { display:flex; align-items:center; gap:.5rem; }

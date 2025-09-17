@@ -1,0 +1,17 @@
+.loading {
+  display:flex;
+  align-items:center;
+  gap:.6rem;
+  color:#c8ddff;
+}
+.spinner {
+  width: 16px; height: 16px;
+  border: 3px solid rgba(255,255,255,0.2);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.text { font-size:.95rem; }

@@ -1,0 +1,5 @@
+.wrap {}
+.back { display:inline-block; margin-bottom:.6rem; }
+.form { margin-top:.8rem; }
+.error { color:#ffd6d6; font-size:.9rem; margin-top:.3rem; }
+.actions { display:flex; justify-content:flex-end; }

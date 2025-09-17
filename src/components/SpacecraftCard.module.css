@@ -1,0 +1,22 @@
+.card {}
+.card__header { display:flex; align-items:center; justify-content:space-between; }
+.card__title { display:flex; align-items:center; gap:.6rem; }
+.name { margin:.2rem 0; }
+.badge {
+  background: rgba(126, 231, 135, 0.15);
+  color: #b6ffd1;
+  padding: .2rem .5rem;
+  border-radius: 999px;
+  border:1px solid rgba(126,231,135,.25);
+  font-size: .8rem;
+}
+.destroy {
+  background: var(--danger);
+  color: #1b0707;
+}
+.body { margin-top:.4rem; }
+.desc { opacity:.9; }
+.meta { display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-top:.6rem; }
+.img { width: 88px; height: 88px; border-radius: 10px; object-fit:cover; border:1px solid var(--border); }
+.actions { margin-top:.8rem; display:flex; justify-content:flex-end; }
+.link { text-decoration:none; }

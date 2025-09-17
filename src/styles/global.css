@@ -1,0 +1,48 @@
+/* Global styles and utility classes */
+:root {
+  --accent: #58a6ff;
+  --accent-2: #7ee787;
+  --danger: #ff6b6b;
+  --bg-card: rgba(255,255,255,0.04);
+  --border: rgba(255,255,255,0.08);
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; margin: 0; }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+button {
+  background: var(--accent);
+  color: #061222;
+  border: 0;
+  border-radius: 12px;
+  padding: .6rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+button[disabled] { opacity: .6; cursor: not-allowed; }
+input, textarea, select {
+  width: 100%;
+  background: rgba(255,255,255,0.06);
+  color: #e5f1ff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: .6rem .8rem;
+  outline: none;
+}
+label { display:block; margin-bottom: .4rem; color: #c8ddff; }
+.form-row { margin-bottom: 1rem; }
+.card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 1rem; }
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+.grid-3 {
+  grid-template-columns: repeat(3, minmax(0,1fr));
+}
+@media (max-width: 900px) {
+  .grid-3 { grid-template-columns: 1fr; }
+}
