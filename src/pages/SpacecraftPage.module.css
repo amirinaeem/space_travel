@@ -1,7 +1,0 @@
-.wrap {}
-.back { display:inline-block; margin-bottom:.6rem; }
-.header { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
-.title { margin:.2rem 0; }
-.meta { display:flex; gap:1rem; color:#a6c8ff; }
-.img { width: 120px; height: 120px; border-radius: 16px; object-fit: cover; border:1px solid var(--border); }
-.desc { margin-top:.8rem; }
